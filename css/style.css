@@ -262,7 +262,7 @@ ul#navigation li .text {
 	box-shadow: -3px 0 5px -4px #000;
 }
 
-ul#navigation li .fas {
+ul#navigation li a i.fas {
 	float: left;
 	line-height: 45px;
 	width: 50px;
@@ -270,7 +270,7 @@ ul#navigation li .fas {
 	font-size: 27px;
 }
 
-ul#navigation li .fab {
+ul#navigation li a i.fab {
 	float: left;
 	line-height: 45px;
 	width: 50px;
