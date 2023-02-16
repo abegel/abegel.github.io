@@ -50,6 +50,30 @@
 				height: 350px;
 				border-right: 1px solid #999;
 			}
+			a { color: #999; text-decoration: none; border-bottom: 1px dotted #999; }
+        	a:hover { border-bottom-style: solid; color: black; }
+
+			ul li span {
+				position: absolute;
+				bottom: 0;
+				right: 0;
+				font-style: italic;
+				font-family: Georgia, Serif;
+				font-size: 16px;
+				color: #999;
+				font-weight: normal;
+			}
+		
+			ol li span {
+				position: absolute;
+				bottom: 0;
+				right: 0;
+				font-style: italic;
+				font-family: Georgia, Serif;
+				font-size: 16px;
+				color: #999;
+				font-weight: normal;
+			} 
 		}
 
 		@media print {
@@ -61,11 +85,12 @@
 				font-family: 'Times New Roman', Times, serif;
 			}
 			h1 { margin: 0 0 16px 0; padding: 0 0 16px 0; font-size: 24px; 
-				 font-weight: bold; letter-spacing: -2px; border-bottom: 1px solid #999; 
+				 font-weight: bold; letter-spacing: -2px; border-bottom: 1px solid #222; 
 				 font-family: Helvetica, Sans-Serif;}
         	h2 { font-size: 16px; margin: 0px 0 6px 0; position: relative; font-family: Helvetica, Sans-Serif; }
 			h2.later { margin-top: 30px }
-        	h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 14px; color: #999; font-weight: normal; }
+        	h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; 
+				      font-family: Georgia, Serif; font-size: 12px; color: #222; font-weight: normal; }
 			ul { margin: 0 0 16px 17px; }
 			ol { margin: 0 0 16px 17px; }
 			ol li {	margin: 5px 0; }
@@ -79,9 +104,47 @@
 				width: 150px;
 				float: left;
 				height: 100px;
-				border-right: 1px solid #999;
+				border-right: 1px solid #222;
 				font-family: Helvetica, Sans-Serif;
 			}
+			a {
+				color: black;
+				text-decoration: none;
+			}
+			a.link {
+				color: black;
+				text-decoration: none;
+			}
+			a.visited {
+				color: black;
+				text-decoration: none;
+			}
+			a.active {
+				color: black;
+				text-decoration: none;
+			}
+			ul li span {
+				position: absolute;
+				bottom: 0;
+				right: 0;
+				font-style: italic;
+				font-family: Georgia, Serif;
+				font-size: 12px;
+				color: #222;
+				font-weight: normal;
+			}
+		
+			ol li span {
+				position: absolute;
+				bottom: 0;
+				right: 0;
+				font-style: italic;
+				font-family: Georgia, Serif;
+				font-size: 12px;
+				color: #222;
+				font-weight: normal;
+			} 
+		
 		}
 
         .clear { clear: both; }
@@ -92,32 +155,10 @@
 			position:relative;
 		}
 
-		ul li span {
-		 position: absolute;
-		 bottom: 0;
-		 right: 0;
-		 font-style: italic;
-		 font-family: Georgia, Serif;
-		 font-size: 16px;
-		 color: #999;
-		 font-weight: normal;
-		}
-		
 
-	 ol li span {
-		 position: absolute;
-		 bottom: 0;
-		 right: 0;
-		 font-style: italic;
-		 font-family: Georgia, Serif;
-		 font-size: 16px;
-		 color: #999;
-		 font-weight: normal;
-	 }
 
         p { margin: 0 0 16px 0; }
-        a { color: #999; text-decoration: none; border-bottom: 1px dotted #999; }
-        a:hover { border-bottom-style: solid; color: black; }
+        
 
         dd { width: 600px; float: right; }
         dd.clear { float: none; margin: 0; height: 15px; }
